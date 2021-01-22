@@ -17,9 +17,9 @@ int main(int argc, char** argv) {
             cout << "Ingrese una opcion dentro del rango\n";
             cout << "----MENU----\n";
             cout << "1. Ejercicio 1\n";
-        	cout << "2. Ejercicio 2\n";
-        	cout << "3. Salir\n";
-        	cout << "\n";
+    		cout << "2. Ejercicio 2\n";
+			cout << "3. Salir\n";
+			cout << "\n";
             cout << "Ingrese la opcion que desea: ";
             cin >> opcion;
             cout << "\n";
@@ -44,9 +44,9 @@ int main(int argc, char** argv) {
         	int k = 0;
         	
         	for(int i = 0; i <= n; i++){//ciclo que calcula la sumatoria
-        		base = (i + 1);
-        		k = i * (pow(base,2));
-        		sumatoria += k;
+				base = (i + 1);
+				k = i * (pow(base,2));
+				sumatoria += k;
 			}//fin del for
 			
 			cout << "El resultado de la sumatoria con n = " << n << " es = " << sumatoria << endl;
